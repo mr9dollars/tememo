@@ -1,0 +1,114 @@
+@charset "UTF-8";
+/* CSS Document */
+.loginboxcontainer{
+	display: inline-block;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 420px;
+	height: 520px; /*change to px*/
+
+	margin: auto;
+	background-color: white;
+	border-radius: 10px;
+    box-shadow: 0 1px 10px #03A145;
+  
+    }
+
+.header{
+padding: 5px;
+border-radius: 10px 10px 0px 0px;
+	
+}
+.header h1{
+	text-align: center;
+	margin: 0px;
+	color: white;
+}
+
+
+.loginmiddleholder{
+	background-color:white;
+	padding-left: 25px;
+	padding-right: 25px;
+	margin-top: 10px;
+
+}
+.loginmiddleholder h2{
+	margin: 25px;
+	text-align: center;
+}
+
+
+#marqueewords {
+	font-size: 25px;
+	text-align: center;
+	background-color: white;
+	border:0px;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	
+}
+
+.input{
+	display: inline-block;
+	position: relative;
+}
+.marquee h2{
+	line-height: 15px;
+	
+}
+.loginAuthinput {
+	margin-top: 20px;
+}
+
+.inputs {
+
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border: none;
+    padding: 13px 10px;
+    width: 100%;
+    margin-bottom: 15px;
+    box-shadow: inset 0 2px 3px rgba( 0, 0, 0, 0.1 );
+    clear: both;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.inputs:focus {
+    background: #fff;
+    box-shadow: 0 0 0 3px #03A145, inset 0 2px 3px rgba( 0, 0, 0, 0.2 ), 0px 5px 5px rgba( 0, 0, 0, 0.15 );
+    outline: none;
+}
+.btn{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.loginlowerholder{
+	padding: 0px 25px 0px 25px;
+
+}
+
+
+
+
+
+
+
+<style> 
+inputs:-webkit-input-placeholder {
+    color: #b5b5b5;
+}
+
+inputs-moz-placeholder {
+    color: #b5b5b5;
+}
+
+
+
+
+
+

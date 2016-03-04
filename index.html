@@ -1,72 +1,30 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>TeMeMo</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-<link rel="stylesheet" href="main.css">
-<link href="https://fonts.googleapis.com/css?family=Oxygen:700" rel="stylesheet" type="text/css">
- <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="tellmemore.css">
 </head>
-
 <body>
-	
-	<div class="homemodule">
-		<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-			<div class="flip-front">
-				<div class="loginboxcontainer">
-					<div class="loginupperholder">
-						<div class="header" style="background-color: #03A145">
-							<h1>TEMEMO</h1>
-						</div>
-					</div>	
-					<div class="loginmiddleholder">
-
-						<div class="marquee">
-							<H2>Tell Me More about</H2>
-							<marquee behavior="scroll" direction="up" style="height:30px" scrolldelay="300">
-								<pre id="marqueewords">
-Facts
-Stories
-Jokes
-Tales
-Lies
-News
-Secrets
-Memes
-Anything
-								</pre>
-
-							</marquee>
-						</div>
-						
-											
-						<div class="loginAuthinput">
-							<form action="demo_form.asp" method="get">
-									<input type="text"class="inputs" placeholder="Your Login E-mail" /> 
-		 							<input type="password" class="inputs" placeholder="Your Password" /> 
-		  							<input type="checkbox" name="Remeber me" id="rememberme" display:"in-line"> <label for="rememberme">Remember Me</label>
-							</form>
-							<a href="http://www.google.com"class="btn btn-success btn-block loginbutton">Login</a>
-							
-							
-								
-								
-						</div>
-					</div>
-					<hr size=3 color=#03A145>
-					<div class="loginlowerholder">
-						<a href="http://www.google.com"class="btn btn-primary btn-block ">Forgot Password?</a><br>
-						<a href="http://www.google.com"class="btn btn-primary btn-block ">Register Your Account Here</a>
-					</div>
-				</div>	
-			</div>	
-			<div class="flip-back">
-
-			</div>
+	<div class="top">
+		<div id="menu">
+			<ul id="menu">
+				<li><a href="" style="padding-left:20px;padding-right:20px;"><strong>TellMeMore</strong></a></li>
+				<li><a href="" class="active">Globe</a></li>
+				<li><a href="">Trending</a></li>
+				<li><a href="">Local</a></li>
+				<li><a href="">Community</a></li>
+			</ul>
 		</div>
+		<div style="float:right;">
+			<form action="search.asp">
+				<input class="search" type="text" name="search" placeholder="Search">
+			</form>
+		</div>
+	</div>
+	<div class="container">
+	
+	</div>
+	<div class="bottom">
+	
 	</div>
 </body>
 </html>
